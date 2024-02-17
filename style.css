@@ -21,6 +21,11 @@ body {
     border-radius: 8px;
 }
 
+#counter > div {
+    display: flex;
+    align-items: center;
+}
+
 #value {
     font-size: 8rem;
     color: #fff;
@@ -38,4 +43,11 @@ button {
 
 button:hover {
     opacity: .8;
+}
+
+.count-button {
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+    background-color: #18181b;
 }
