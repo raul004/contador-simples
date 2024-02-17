@@ -17,4 +17,11 @@ plusButton.addEventListener("mousedown", () => {
     }, 100);
 });
 
+minusButton.addEventListener("mousedown", () => {
+    intervalId = setInterval(() => {
+        counter -= 1;
+        updateValue();
+    }, 100);
+});
+
 document.addEventListener("mouseup", () => clearInterval(intervalId));
